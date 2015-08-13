@@ -1,5 +1,5 @@
 <MPD type="static" maxSegmentDuration="PT5.000S" profiles="urn:mpeg:dash:profile:isoff-live:2011" mediaPresentationDuration="PT0H0M11.553S" minBufferTime="PT4.500S" xmlns="urn:mpeg:DASH:schema:MPD:2011">
-  <BaseURL>noaudio/</BaseURL>
+  <BaseURL>/dashling-testmedia/noaudio/</BaseURL>
   <Period>
     <AdaptationSet id="1" contentType="video" mimeType="video/mp4" segmentAlignment="true" bitstreamSwitching="true" maxFrameRate="10000000/417083" maxWidth="1920" maxHeight="1080" codecs="avc1.4d0028">
       <SegmentTemplate timescale="23976" initialization="init-$RepresentationID$.bin" media="$RepresentationID$-$Time$.bin">

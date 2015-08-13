@@ -1,6 +1,6 @@
 <MPD type="static" maxSegmentDuration="PT5.000S" profiles="urn:mpeg:dash:profile:isoff-live:2011" mediaPresentationDuration="PT0H0M76.993S" minBufferTime="PT4.500S" xmlns="urn:mpeg:DASH:schema:MPD:2011">
-  <BaseURL>spider/</BaseURL>
-  <Period>   
+  <BaseURL>/dashling-testmedia/spider/</BaseURL>
+  <Period>
     <AdaptationSet id="0" contentType="audio" mimeType="audio/mp4" segmentAlignment="true" bitstreamSwitching="true" codecs="mp4a.40.2">
       <SegmentTemplate timescale="44100" initialization="init-$RepresentationID$.bin" media="$RepresentationID$-$Time$.bin">
         <SegmentTimeline>
